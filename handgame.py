@@ -16,6 +16,8 @@ def update_hand(player_hand, opponent_hand):
         player_hand -= 5
     return player_hand
 
+print("The point of this game is to disable the other player's hand by making the number of fingers they're holding up equal to 5.")
+print("When you attack, you add the number of fingers on the attacking hand to the attacked hand.")
 # Main game loop
 while not game_end:
     # Display hand values
